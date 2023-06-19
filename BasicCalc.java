@@ -1,6 +1,6 @@
 /**
  * Простой калькулятор
- * @author Roman Fadeev
+ * @author Roman
  * @version 1.0
  */
 
