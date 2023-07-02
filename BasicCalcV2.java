@@ -1,5 +1,6 @@
 /**
  * Калькулятор и массив
+ *
  * @author Roman
  * @version 1.0
  */
@@ -47,12 +48,14 @@ public class BasicCalcV2 {
         } else if (choice == 2) {
             System.out.println("Длинна масива: (укажите число)");
             int count = scanner.nextInt();
+
             String[] words = new String[count];
 
             System.out.println("Введите слова: ");
             for (int i = 0; i < count; i++) {
                 words[i] = scanner.next();
             }
+
             int maxLength = 0;
             String maxWord = "";
             for (String word : words) {
