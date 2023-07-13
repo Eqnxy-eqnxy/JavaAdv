@@ -4,6 +4,8 @@
  * @author Roman
  * @version 1.0
  */
+package com.ibs.javaAdv;
+
 
 import java.util.Scanner;
 
