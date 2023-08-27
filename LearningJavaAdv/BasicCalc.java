@@ -3,7 +3,7 @@
  * @author Roman
  * @version 1.0
  */
-package com.ibs.javaAdv;
+package LearningJavaAdv;
 
 
 import java.util.Scanner;

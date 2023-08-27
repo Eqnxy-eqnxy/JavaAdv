@@ -1,4 +1,4 @@
-package com.ibs.javaAdv;
+package LearningJavaAdv;
 
 public class ArraySwitch {
     public static void main(String[] args) {
