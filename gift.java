@@ -16,6 +16,6 @@ public class gift {
         for (giftBox someBox: box) {
             System.out.println(someBox.toString());
         }
-        System.out.println("Total price = " + price + ", " + "Total weight = " + weight);
+        System.out.println("Общая сумма = " + price + ", " + "Общий вес = " + weight);
         }
     }
