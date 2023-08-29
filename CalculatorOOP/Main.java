@@ -20,16 +20,15 @@ public class Main {
 
         Calculator calculator = new Calculator(num1, num2);
 
-        if (num1 == 0 || num2 == 0 && move == 3) {
-            System.out.println("Введены неверные числа! Попробуй снова");
-
+        try {
+            if (move == 1) System.out.println("Сложение = " + calculator.add(num1, num2));
+            else if (move == 2) System.out.println("Вычитание = " + calculator.sub(num1, num2));
+            else if (move == 3) System.out.println("Деление = " + calculator.div(num1, num2));
+            else if (move == 4) System.out.println("Умножение = " + calculator.mult(num1, num2));
+            else System.out.println("Введено неверное действие! Попробуй снова");
+        } catch (ArithmeticException e) {
+            e.getStackTrace();
         }
-
-        if (move == 1) System.out.println("Сложение = " + calculator.add(num1, num2));
-        else if (move == 2) System.out.println("Вычитание = " + calculator.sub(num1, num2));
-        else if (move == 3) System.out.println("Деление = " + calculator.div(num1, num2));
-        else if (move == 4) System.out.println("Умножение = " + calculator.mult(num1, num2));
-        else System.out.println("Введено неверное действие! Попробуй снова");
 
     }
 
